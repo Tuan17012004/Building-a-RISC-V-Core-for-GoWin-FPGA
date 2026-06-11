@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_fpga" Register="37" Lut="48" T_Register="2149(37)" T_Alu="64(0)" T_Lut="1677(48)">
+ <SubModule name="cpu" T_Register="64(0)" T_Alu="64(0)" T_Lut="503(0)">
+  <SubModule name="c" T_Lut="5(0)">
+   <SubModule name="md" Lut="2" T_Lut="2(2)"/>
+   <SubModule name="ad" Lut="3" T_Lut="3(3)"/>
+  </SubModule>
+  <SubModule name="dp" T_Register="64(0)" T_Alu="64(0)" T_Lut="498(0)">
+   <SubModule name="pcreg" Register="32" T_Register="32(32)"/>
+   <SubModule name="pcaddbr" Alu="32" T_Alu="32(32)"/>
+   <SubModule name="pcmux" Lut="90" T_Lut="90(90)"/>
+   <SubModule name="rf" Register="32" Lut="70" T_Register="32(32)" T_Lut="70(70)"/>
+   <SubModule name="ext" Lut="15" T_Lut="15(15)"/>
+   <SubModule name="alu_inst" Alu="32" Lut="92" T_Alu="32(32)" T_Lut="92(92)"/>
+   <SubModule name="resultmux" Lut="231" T_Lut="231(231)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="imem" Lut="15" T_Lut="15(15)"/>
+ <SubModule name="dmem" Register="2048" Lut="1111" T_Register="2048(2048)" T_Lut="1111(1111)"/>
+</Module>

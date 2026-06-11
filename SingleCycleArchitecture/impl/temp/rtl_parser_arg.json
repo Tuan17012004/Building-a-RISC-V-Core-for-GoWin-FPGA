@@ -1,0 +1,81 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/ALU.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/ALUDecoder.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/Adder.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/Controller.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/DataMemory.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/Datapath.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/ExtendUnit.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/InstructionMemory.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/MainDecoder.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/ProgramCounter.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/RegFile.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/ResettableFF.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/Resettableffwen.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/Single-CycleProcessor.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/Top_FPGA.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/multiplexer21.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/microarchitecturesingle/src/multiplexer31.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Gowin/microarchitecturesingle/impl/temp/rtl_parser.result",
+ "Top" : "top_fpga",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,30 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25UG324C2/I1">gw5a25a-008</Device>
+    <FileList>
+        <File path="src/ALU.sv" type="file.verilog" enable="1"/>
+        <File path="src/ALUDecoder.sv" type="file.verilog" enable="1"/>
+        <File path="src/Adder.sv" type="file.verilog" enable="1"/>
+        <File path="src/Controller.sv" type="file.verilog" enable="1"/>
+        <File path="src/DataMemory.sv" type="file.verilog" enable="1"/>
+        <File path="src/Datapath.sv" type="file.verilog" enable="1"/>
+        <File path="src/ExtendUnit.sv" type="file.verilog" enable="1"/>
+        <File path="src/InstructionMemory.sv" type="file.verilog" enable="1"/>
+        <File path="src/MainDecoder.sv" type="file.verilog" enable="1"/>
+        <File path="src/ProgramCounter.sv" type="file.verilog" enable="1"/>
+        <File path="src/RegFile.sv" type="file.verilog" enable="1"/>
+        <File path="src/ResettableFF.sv" type="file.verilog" enable="1"/>
+        <File path="src/Resettableffwen.sv" type="file.verilog" enable="1"/>
+        <File path="src/Single-CycleProcessor.sv" type="file.verilog" enable="1"/>
+        <File path="src/Top_FPGA.sv" type="file.verilog" enable="1"/>
+        <File path="src/multiplexer21.sv" type="file.verilog" enable="1"/>
+        <File path="src/multiplexer31.sv" type="file.verilog" enable="1"/>
+        <File path="src/microarchitecturesingle.cst" type="file.cst" enable="1"/>
+        <File path="src/microarchitecturesingle.sdc" type="file.sdc" enable="1"/>
+        <File path="src/program.mi" type="file.other" enable="1"/>
+        <File path="src/riscvtest_simple.hex" type="file.other" enable="1"/>
+    </FileList>
+</Project>

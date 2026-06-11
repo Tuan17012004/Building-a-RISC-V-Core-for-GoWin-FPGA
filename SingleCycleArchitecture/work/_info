@@ -1,0 +1,436 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dd:/Gowin/microarchitecturesingle
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1781006743
+!i10b 1
+!s100 9iTfzj_`>N02WlG^@GAU_1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZ];DW[AQQA;faJ:LaaZ3m1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/Gowin/microarchitecturesingle
+Z5 w1780742057
+8src/Adder.sv
+Fsrc/Adder.sv
+!i122 102
+L0 1 6
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1781006743.000000
+!s107 src/Adder.sv|
+!s90 -reportprogress|300|-sv|src/Adder.sv|
+!i113 1
+o-sv
+Z8 tCvgOpt 0
+valu
+R0
+Z9 !s110 1781006744
+!i10b 1
+!s100 h1kAHBFmfXd93XQ=zjCda2
+R2
+IN=26>:WI6F6QVf4P_Yk@f2
+R3
+S1
+R4
+R5
+8src/ALU.sv
+Fsrc/ALU.sv
+!i122 108
+Z10 L0 2 23
+R6
+r1
+!s85 0
+31
+Z11 !s108 1781006744.000000
+!s107 src/ALU.sv|
+!s90 -reportprogress|300|-sv|src/ALU.sv|
+!i113 1
+o-sv
+R8
+valudec
+R0
+R9
+!i10b 1
+!s100 Z:H?P]LK29dbQ>^EFFB9W0
+R2
+ITl3ld[64N^B=0I=nCO6^62
+R3
+S1
+R4
+R5
+8src/ALUDecoder.sv
+Fsrc/ALUDecoder.sv
+!i122 109
+Z12 L0 1 26
+R6
+r1
+!s85 0
+31
+R11
+!s107 src/ALUDecoder.sv|
+!s90 -reportprogress|300|-sv|src/ALUDecoder.sv|
+!i113 1
+o-sv
+R8
+vcontroller
+R0
+R9
+!i10b 1
+!s100 6JID6z_Am5Ln83EEWKb663
+R2
+IHFL>]_JaF0H89b8]Vk`Vh2
+R3
+S1
+R4
+R5
+8src/Controller.sv
+Fsrc/Controller.sv
+!i122 111
+R12
+R6
+r1
+!s85 0
+31
+R11
+!s107 src/Controller.sv|
+!s90 -reportprogress|300|-sv|src/Controller.sv|
+!i113 1
+o-sv
+R8
+vdatapath
+R0
+Z13 !s110 1781006745
+!i10b 1
+!s100 :K?I_BbYfKc_3eCeE6m`a2
+R2
+IP7hlQ524lfPAU5PV;edb10
+R3
+S1
+R4
+R5
+8src/Datapath.sv
+Fsrc/Datapath.sv
+!i122 116
+L0 1 23
+R6
+r1
+!s85 0
+31
+Z14 !s108 1781006745.000000
+!s107 src/Datapath.sv|
+!s90 -reportprogress|300|-sv|src/Datapath.sv|
+!i113 1
+o-sv
+R8
+vdmem
+R0
+R13
+!i10b 1
+!s100 cnLbQgiNL7@49G]Vh_L3P2
+R2
+I@ACi9OSoonmE0jTLJBZPg3
+R3
+S1
+R4
+R5
+8src/DataMemory.sv
+Fsrc/DataMemory.sv
+!i122 114
+L0 1 10
+R6
+r1
+!s85 0
+31
+R14
+!s107 src/DataMemory.sv|
+!s90 -reportprogress|300|-sv|src/DataMemory.sv|
+!i113 1
+o-sv
+R8
+vextend
+R0
+R13
+!i10b 1
+!s100 jHX`F1kiSEAmoI0:8lMoI0
+R2
+IBOL=cZcMBzB_T08f630E22
+R3
+S1
+R4
+R5
+8src/ExtendUnit.sv
+Fsrc/ExtendUnit.sv
+!i122 113
+L0 3 14
+R6
+r1
+!s85 0
+31
+R14
+!s107 src/ExtendUnit.sv|
+!s90 -reportprogress|300|-sv|src/ExtendUnit.sv|
+!i113 1
+o-sv
+R8
+vflopenr
+R0
+R9
+!i10b 1
+!s100 kICMjfDzBo;:VT1Gc92<m3
+R2
+I02VFd23KO3AMhDCK];6TT2
+R3
+S1
+R4
+R5
+8src/Resettableffwen.sv
+Fsrc/Resettableffwen.sv
+!i122 106
+Z15 L0 1 9
+R6
+r1
+!s85 0
+31
+R11
+!s107 src/Resettableffwen.sv|
+!s90 -reportprogress|300|-sv|src/Resettableffwen.sv|
+!i113 1
+o-sv
+R8
+vflopr
+R0
+R9
+!i10b 1
+!s100 dzzFGEk`9eGlZ^hQl@>B>2
+R2
+IW4ZOKc8gFk?P8Y2h:Qn^]1
+R3
+S1
+R4
+R5
+8src/ResettableFF.sv
+Fsrc/ResettableFF.sv
+!i122 105
+R15
+R6
+r1
+!s85 0
+31
+R7
+!s107 src/ResettableFF.sv|
+!s90 -reportprogress|300|-sv|src/ResettableFF.sv|
+!i113 1
+o-sv
+R8
+vimem
+R0
+R13
+!i10b 1
+!s100 `C;k[omi3fmml839YCWDl2
+R2
+I0=B?41E?60fLB<gE=VbDB3
+R3
+S1
+R4
+R5
+8src/InstructionMemory.sv
+Fsrc/InstructionMemory.sv
+!i122 115
+L0 1 15
+R6
+r1
+!s85 0
+31
+R14
+!s107 src/InstructionMemory.sv|
+!s90 -reportprogress|300|-sv|src/InstructionMemory.sv|
+!i113 1
+o-sv
+R8
+vmaindec
+R0
+R9
+!i10b 1
+!s100 T[f63Sa0JE;0=>g>@m>JT1
+R2
+I4]`>P0i[o_58gMSXmk9[N0
+R3
+S1
+R4
+R5
+8src/MainDecoder.sv
+Fsrc/MainDecoder.sv
+!i122 110
+R10
+R6
+r1
+!s85 0
+31
+R11
+!s107 src/MainDecoder.sv|
+!s90 -reportprogress|300|-sv|src/MainDecoder.sv|
+!i113 1
+o-sv
+R8
+vmux2to1
+R0
+R1
+!i10b 1
+!s100 H`]IK53^SGc2COViOcBM01
+R2
+IHgcmO;:ZGiWJbQ;XTkJI11
+R3
+S1
+R4
+R5
+8src/multiplexer21.sv
+Fsrc/multiplexer21.sv
+!i122 103
+Z16 L0 1 7
+R6
+r1
+!s85 0
+31
+R7
+!s107 src/multiplexer21.sv|
+!s90 -reportprogress|300|-sv|src/multiplexer21.sv|
+!i113 1
+o-sv
+R8
+vmux3
+R0
+R1
+!i10b 1
+!s100 eL8?F^U3IFoLj^FF=:=Yg3
+R2
+II<Fm4jG6WjN=oVE3C]dS63
+R3
+S1
+R4
+R5
+8src/multiplexer31.sv
+Fsrc/multiplexer31.sv
+!i122 104
+R16
+R6
+r1
+!s85 0
+31
+R7
+!s107 src/multiplexer31.sv|
+!s90 -reportprogress|300|-sv|src/multiplexer31.sv|
+!i113 1
+o-sv
+R8
+vpc
+R0
+R9
+!i10b 1
+!s100 2Jz2N6mPOGVH6K[^YC5Q42
+R2
+I?zPCkMo`i2jh@`ebV0D:h1
+R3
+S1
+R4
+R5
+8src/ProgramCounter.sv
+Fsrc/ProgramCounter.sv
+!i122 107
+R15
+R6
+r1
+!s85 0
+31
+R11
+!s107 src/ProgramCounter.sv|
+!s90 -reportprogress|300|-sv|src/ProgramCounter.sv|
+!i113 1
+o-sv
+R8
+vregfile
+R0
+R9
+!i10b 1
+!s100 gbLW>4GM8f^N8:mBCTo?11
+R2
+IZ3k?NP]@Pcn:MiIAeJnI_0
+R3
+S1
+R4
+R5
+8src/RegFile.sv
+Fsrc/RegFile.sv
+!i122 112
+L0 1 13
+R6
+r1
+!s85 0
+31
+R11
+!s107 src/RegFile.sv|
+!s90 -reportprogress|300|-sv|src/RegFile.sv|
+!i113 1
+o-sv
+R8
+vriscvsingle
+R0
+R13
+!i10b 1
+!s100 m5ki>GGSgk70`:7DK=B`J1
+R2
+I[QSHheH?ozOPXAH_]X_HE3
+R3
+S1
+R4
+R5
+8src/Single-CycleProcessor.sv
+Fsrc/Single-CycleProcessor.sv
+!i122 117
+L0 1 16
+R6
+r1
+!s85 0
+31
+R14
+!s107 src/Single-CycleProcessor.sv|
+!s90 -reportprogress|300|-sv|src/Single-CycleProcessor.sv|
+!i113 1
+o-sv
+R8
+vtb_singlecycle
+R0
+R13
+!i10b 1
+!s100 ZLWQkZXn:]WYNCS;EWA5H3
+R2
+I>naGaUn8jimCz:4H]H:OU2
+R3
+S1
+R4
+w1780741769
+8src/tb_singlecycle.sv
+Fsrc/tb_singlecycle.sv
+!i122 118
+L0 4 48
+R6
+r1
+!s85 0
+31
+R14
+!s107 src/tb_singlecycle.sv|
+!s90 -reportprogress|300|-sv|src/tb_singlecycle.sv|
+!i113 1
+o-sv
+R8
