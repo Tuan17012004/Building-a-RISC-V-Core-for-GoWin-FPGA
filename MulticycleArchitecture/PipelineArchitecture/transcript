@@ -1,0 +1,243 @@
+# do sim_run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:04 on Jun 11,2026
+# vlog -sv src/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 04:09:04 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:04 on Jun 11,2026
+# vlog -sv src/aludec.sv 
+# -- Compiling module aludec
+# 
+# Top level modules:
+# 	aludec
+# End time: 04:09:04 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:04 on Jun 11,2026
+# vlog -sv src/maindec.sv 
+# -- Compiling module maindec
+# 
+# Top level modules:
+# 	maindec
+# End time: 04:09:05 on Jun 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:05 on Jun 11,2026
+# vlog -sv src/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 04:09:05 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:05 on Jun 11,2026
+# vlog -sv src/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 04:09:05 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:05 on Jun 11,2026
+# vlog -sv src/flopr.sv 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 04:09:05 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:05 on Jun 11,2026
+# vlog -sv src/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 04:09:05 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:05 on Jun 11,2026
+# vlog -sv src/flopenrc.sv 
+# -- Compiling module flopenrc
+# 
+# Top level modules:
+# 	flopenrc
+# End time: 04:09:05 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:05 on Jun 11,2026
+# vlog -sv src/floprc.sv 
+# -- Compiling module floprc
+# 
+# Top level modules:
+# 	floprc
+# End time: 04:09:05 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:05 on Jun 11,2026
+# vlog -sv src/hazard.sv 
+# -- Compiling module hazard
+# 
+# Top level modules:
+# 	hazard
+# End time: 04:09:05 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:05 on Jun 11,2026
+# vlog -sv src/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 04:09:05 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:06 on Jun 11,2026
+# vlog -sv src/dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 04:09:06 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:06 on Jun 11,2026
+# vlog -sv src/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 04:09:06 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:06 on Jun 11,2026
+# vlog -sv src/mux3.sv 
+# -- Compiling module mux3
+# 
+# Top level modules:
+# 	mux3
+# End time: 04:09:06 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:06 on Jun 11,2026
+# vlog -sv src/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 04:09:06 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:06 on Jun 11,2026
+# vlog -sv src/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 04:09:06 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:06 on Jun 11,2026
+# vlog -sv src/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 04:09:06 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:06 on Jun 11,2026
+# vlog -sv src/riscv.sv 
+# -- Compiling module riscv
+# 
+# Top level modules:
+# 	riscv
+# End time: 04:09:06 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:06 on Jun 11,2026
+# vlog -sv src/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 04:09:06 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:09:07 on Jun 11,2026
+# vlog -sv src/tb_pipelined.sv 
+# -- Compiling module tb_pipelined
+# 
+# Top level modules:
+# 	tb_pipelined
+# End time: 04:09:07 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ns tb_pipelined 
+# Start time: 04:09:07 on Jun 11,2026
+# Loading sv_std.std
+# Loading work.tb_pipelined
+# Loading work.top
+# Loading work.riscv
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.floprc
+# Loading work.flopr
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.flopenrc
+# Loading work.regfile
+# Loading work.extend
+# Loading work.mux3
+# Loading work.alu
+# Loading work.hazard
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nguye  Hostname: TUAN  ProcessID: 22992
+#           Attempting to use alternate WLF file "./wlftbr0jxs".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbr0jxs
+# Cycle  1 | F[PC= 4 addi] D[PC= 0 addi]
+# Cycle  2 | F[PC= 8 sw  ] D[PC= 4 addi]
+# Cycle  3 | F[PC=12 jal ] D[PC= 8 sw  ] FWD_A=10 FWD_B=10
+# Cycle  4 | F[PC=16 addi] D[PC=12 jal ] FWD_B=10
+# Cycle  5 | F[PC=20 addi] D[PC=16 addi] FLUSH_D FLUSH_E | M: MEM[0]=1 <=
+# Cycle  6 | F[PC= 4 addi] D[PC= 0 nop ]
+# Cycle  7 | F[PC= 8 sw  ] D[PC= 4 addi]
+# Cycle  8 | F[PC=12 jal ] D[PC= 8 sw  ]
+# Cycle  9 | F[PC=16 addi] D[PC=12 jal ] FWD_B=10
+# Cycle 10 | F[PC=20 addi] D[PC=16 addi] FLUSH_D FLUSH_E | M: MEM[0]=2 <=
+# Cycle 11 | F[PC= 4 addi] D[PC= 0 nop ]
+# Cycle 12 | F[PC= 8 sw  ] D[PC= 4 addi]
+# Cycle 13 | F[PC=12 jal ] D[PC= 8 sw  ]
+# Cycle 14 | F[PC=16 addi] D[PC=12 jal ] FWD_B=10
+# Cycle 15 | F[PC=20 addi] D[PC=16 addi] FLUSH_D FLUSH_E | M: MEM[0]=3 <=
+# Cycle 16 | F[PC= 4 addi] D[PC= 0 nop ]
+# Cycle 17 | F[PC= 8 sw  ] D[PC= 4 addi]
+# Cycle 18 | F[PC=12 jal ] D[PC= 8 sw  ]
+# Cycle 19 | F[PC=16 addi] D[PC=12 jal ] FWD_B=10
+# Cycle 20 | F[PC=20 addi] D[PC=16 addi] FLUSH_D FLUSH_E | M: MEM[0]=4 <=
+# Cycle 21 | F[PC= 4 addi] D[PC= 0 nop ]
+# Cycle 22 | F[PC= 8 sw  ] D[PC= 4 addi]
+# Cycle 23 | F[PC=12 jal ] D[PC= 8 sw  ]
+# Cycle 24 | F[PC=16 addi] D[PC=12 jal ] FWD_B=10
+# Cycle 25 | F[PC=20 addi] D[PC=16 addi] FLUSH_D FLUSH_E | M: MEM[0]=5 <=
+# Cycle 26 | F[PC= 4 addi] D[PC= 0 nop ]
+# Cycle 27 | F[PC= 8 sw  ] D[PC= 4 addi]
+# Cycle 28 | F[PC=12 jal ] D[PC= 8 sw  ]
+# Cycle 29 | F[PC=16 addi] D[PC=12 jal ] FWD_B=10
+# ** Note: $finish    : src/tb_pipelined.sv(25)
+#    Time: 630 ns  Iteration: 1  Instance: /tb_pipelined
+# End time: 04:09:07 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2

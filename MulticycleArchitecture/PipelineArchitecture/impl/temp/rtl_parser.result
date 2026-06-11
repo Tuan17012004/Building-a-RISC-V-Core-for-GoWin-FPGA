@@ -1,0 +1,236 @@
+[
+ {
+  "InstFile" : "D:/Gowin/PipelineArchitecture/src/Top_FPGA.sv",
+  "InstLine" : 1,
+  "InstName" : "top_fpga",
+  "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/Top_FPGA.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top_fpga",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Gowin/PipelineArchitecture/src/Top_FPGA.sv",
+    "InstLine" : 18,
+    "InstName" : "pipelined_cpu",
+    "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/top.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Gowin/PipelineArchitecture/src/top.sv",
+      "InstLine" : 9,
+      "InstName" : "riscv",
+      "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/riscv.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "riscv",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Gowin/PipelineArchitecture/src/riscv.sv",
+        "InstLine" : 26,
+        "InstName" : "c",
+        "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/controller.sv",
+        "ModuleLine" : 1,
+        "ModuleName" : "controller",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/controller.sv",
+          "InstLine" : 31,
+          "InstName" : "md",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/maindec.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "maindec"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/controller.sv",
+          "InstLine" : 35,
+          "InstName" : "ad",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/aludec.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "aludec"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/controller.sv",
+          "InstLine" : 39,
+          "InstName" : "controlregE",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/floprc.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "floprc"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/controller.sv",
+          "InstLine" : 50,
+          "InstName" : "controlregM",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/flopr.sv",
+          "ModuleLine" : 5,
+          "ModuleName" : "flopr"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/controller.sv",
+          "InstLine" : 56,
+          "InstName" : "controlregW",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/flopr.sv",
+          "ModuleLine" : 5,
+          "ModuleName" : "flopr"
+         }
+        ]
+       },
+       {
+        "InstFile" : "D:/Gowin/PipelineArchitecture/src/riscv.sv",
+        "InstLine" : 34,
+        "InstName" : "dp",
+        "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+        "ModuleLine" : 1,
+        "ModuleName" : "datapath",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 45,
+          "InstName" : "pcmux",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/mux2.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "mux2"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 46,
+          "InstName" : "pcreg",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/flopenr.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "flopenr"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 47,
+          "InstName" : "pcadd",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/adder.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "adder"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 49,
+          "InstName" : "regD",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/flopenrc.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "flopenrc"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 60,
+          "InstName" : "rf",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/regfile.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "regfile"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 61,
+          "InstName" : "ext",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/extend.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "extend"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 63,
+          "InstName" : "regE",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/floprc.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "floprc"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 67,
+          "InstName" : "faemux",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/mux3.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "mux3"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 68,
+          "InstName" : "fbemux",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/mux3.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "mux3"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 69,
+          "InstName" : "srcbmux",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/mux2.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "mux2"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 70,
+          "InstName" : "alu_u",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/alu.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "alu"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 71,
+          "InstName" : "branchadd",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/adder.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "adder"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 73,
+          "InstName" : "regM",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/flopr.sv",
+          "ModuleLine" : 5,
+          "ModuleName" : "flopr"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 80,
+          "InstName" : "regW",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/flopr.sv",
+          "ModuleLine" : 5,
+          "ModuleName" : "flopr"
+         },
+         {
+          "InstFile" : "D:/Gowin/PipelineArchitecture/src/datapath.sv",
+          "InstLine" : 84,
+          "InstName" : "resultmux",
+          "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/mux3.sv",
+          "ModuleLine" : 1,
+          "ModuleName" : "mux3"
+         }
+        ]
+       },
+       {
+        "InstFile" : "D:/Gowin/PipelineArchitecture/src/riscv.sv",
+        "InstLine" : 47,
+        "InstName" : "hu",
+        "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/hazard.sv",
+        "ModuleLine" : 1,
+        "ModuleName" : "hazard"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/Gowin/PipelineArchitecture/src/top.sv",
+      "InstLine" : 15,
+      "InstName" : "imem",
+      "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/imem.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "imem"
+     },
+     {
+      "InstFile" : "D:/Gowin/PipelineArchitecture/src/top.sv",
+      "InstLine" : 16,
+      "InstName" : "dmem",
+      "ModuleFile" : "D:/Gowin/PipelineArchitecture/src/dmem.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "dmem"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,73 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\adder.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\alu.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\aludec.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\controller.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\datapath.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\dmem.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\extend.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\flopenr.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\flopenrc.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\floprc.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\hazard.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\imem.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\maindec.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\mux2.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\mux3.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\regfile.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\riscv.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\top.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\Top_FPGA.sv'
+Analyzing Verilog file 'D:\Gowin\PipelineArchitecture\src\flopr.sv'
+Compiling module 'top_fpga'("D:\Gowin\PipelineArchitecture\src\Top_FPGA.sv":1)
+Compiling module 'top'("D:\Gowin\PipelineArchitecture\src\top.sv":1)
+Compiling module 'riscv'("D:\Gowin\PipelineArchitecture\src\riscv.sv":1)
+Compiling module 'controller'("D:\Gowin\PipelineArchitecture\src\controller.sv":1)
+Compiling module 'maindec'("D:\Gowin\PipelineArchitecture\src\maindec.sv":1)
+Compiling module 'aludec'("D:\Gowin\PipelineArchitecture\src\aludec.sv":1)
+Compiling module 'floprc(WIDTH=10)'("D:\Gowin\PipelineArchitecture\src\floprc.sv":1)
+Compiling module 'flopr(WIDTH=4)'("D:\Gowin\PipelineArchitecture\src\flopr.sv":5)
+Compiling module 'flopr(WIDTH=3)'("D:\Gowin\PipelineArchitecture\src\flopr.sv":5)
+Compiling module 'datapath'("D:\Gowin\PipelineArchitecture\src\datapath.sv":1)
+Compiling module 'mux2(WIDTH=32)'("D:\Gowin\PipelineArchitecture\src\mux2.sv":1)
+Compiling module 'flopenr(WIDTH=32)'("D:\Gowin\PipelineArchitecture\src\flopenr.sv":1)
+Compiling module 'adder'("D:\Gowin\PipelineArchitecture\src\adder.sv":1)
+Compiling module 'flopenrc(WIDTH=96)'("D:\Gowin\PipelineArchitecture\src\flopenrc.sv":1)
+Compiling module 'regfile'("D:\Gowin\PipelineArchitecture\src\regfile.sv":1)
+Extracting RAM for identifier 'rf'("D:\Gowin\PipelineArchitecture\src\regfile.sv":8)
+Compiling module 'extend'("D:\Gowin\PipelineArchitecture\src\extend.sv":1)
+Compiling module 'floprc(WIDTH=175)'("D:\Gowin\PipelineArchitecture\src\floprc.sv":1)
+Compiling module 'mux3(WIDTH=32)'("D:\Gowin\PipelineArchitecture\src\mux3.sv":1)
+Compiling module 'alu'("D:\Gowin\PipelineArchitecture\src\alu.sv":1)
+Compiling module 'flopr(WIDTH=101)'("D:\Gowin\PipelineArchitecture\src\flopr.sv":5)
+Compiling module 'flopr(WIDTH=69)'("D:\Gowin\PipelineArchitecture\src\flopr.sv":5)
+Compiling module 'hazard'("D:\Gowin\PipelineArchitecture\src\hazard.sv":1)
+Compiling module 'imem'("D:\Gowin\PipelineArchitecture\src\imem.sv":1)
+Compiling module 'dmem'("D:\Gowin\PipelineArchitecture\src\dmem.sv":1)
+Extracting RAM for identifier 'RAM'("D:\Gowin\PipelineArchitecture\src\dmem.sv":13)
+NOTE  (EX0101) : Current top module is "top_fpga"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "imem" instantiated to "imem" is swept in optimizing("D:\Gowin\PipelineArchitecture\src\top.sv":15)
+WARN  (NL0002) : The module "aludec" instantiated to "ad" is swept in optimizing("D:\Gowin\PipelineArchitecture\src\controller.sv":37)
+WARN  (NL0002) : The module "maindec" instantiated to "md" is swept in optimizing("D:\Gowin\PipelineArchitecture\src\controller.sv":34)
+WARN  (NL0002) : The module "extend" instantiated to "ext" is swept in optimizing("D:\Gowin\PipelineArchitecture\src\datapath.sv":61)
+WARN  (NL0002) : The module "adder" instantiated to "pcadd" is swept in optimizing("D:\Gowin\PipelineArchitecture\src\datapath.sv":47)
+[95%] Generate netlist file "D:\Gowin\PipelineArchitecture\impl\gwsynthesis\PipelineArchitecture.vg" completed
+[100%] Generate report file "D:\Gowin\PipelineArchitecture\impl\gwsynthesis\PipelineArchitecture_syn.rpt.html" completed
+GowinSynthesis finish
