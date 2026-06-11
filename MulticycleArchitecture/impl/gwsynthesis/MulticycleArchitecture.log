@@ -1,0 +1,61 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\Top_FPGA.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\alu.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\aludec.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\controller.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\datapath.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\extend.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\flopenr.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\flopr.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\instrdec.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\mainfsm.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\mem.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\mux2.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\mux3.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\regfile.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\riscv.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\tb_multicycle.sv'
+Analyzing Verilog file 'D:\Gowin\MulticycleArchitecture\src\top.sv'
+WARN  (EX3589) : Keyword 'unsigned' is not allowed here in this mode of Verilog
+Compiling module 'top_fpga'("D:\Gowin\MulticycleArchitecture\src\Top_FPGA.sv":1)
+Compiling module 'top'("D:\Gowin\MulticycleArchitecture\src\top.sv":1)
+Compiling module 'riscv'("D:\Gowin\MulticycleArchitecture\src\riscv.sv":1)
+Compiling module 'controller'("D:\Gowin\MulticycleArchitecture\src\controller.sv":1)
+Compiling module 'mainfsm'("D:\Gowin\MulticycleArchitecture\src\mainfsm.sv":1)
+Compiling module 'aludec'("D:\Gowin\MulticycleArchitecture\src\aludec.sv":1)
+Compiling module 'instrdec'("D:\Gowin\MulticycleArchitecture\src\instrdec.sv":1)
+Compiling module 'datapath'("D:\Gowin\MulticycleArchitecture\src\datapath.sv":1)
+Compiling module 'flopenr(WIDTH=32)'("D:\Gowin\MulticycleArchitecture\src\flopenr.sv":1)
+Compiling module 'mux2(WIDTH=32)'("D:\Gowin\MulticycleArchitecture\src\mux2.sv":1)
+Compiling module 'flopr(WIDTH=32)'("D:\Gowin\MulticycleArchitecture\src\flopr.sv":1)
+Compiling module 'regfile'("D:\Gowin\MulticycleArchitecture\src\regfile.sv":1)
+Extracting RAM for identifier 'rf'("D:\Gowin\MulticycleArchitecture\src\regfile.sv":8)
+Compiling module 'extend'("D:\Gowin\MulticycleArchitecture\src\extend.sv":1)
+Compiling module 'mux3(WIDTH=32)'("D:\Gowin\MulticycleArchitecture\src\mux3.sv":1)
+Compiling module 'alu'("D:\Gowin\MulticycleArchitecture\src\alu.sv":1)
+Compiling module 'mem'("D:\Gowin\MulticycleArchitecture\src\mem.sv":1)
+Extracting RAM for identifier 'RAM'("D:\Gowin\MulticycleArchitecture\src\mem.sv":13)
+NOTE  (EX0101) : Current top module is "top_fpga"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "instrdec" instantiated to "id" is swept in optimizing("D:\Gowin\MulticycleArchitecture\src\controller.sv":43)
+WARN  (NL0002) : The module "flopr" instantiated to "areg" is swept in optimizing("D:\Gowin\MulticycleArchitecture\src\datapath.sv":40)
+WARN  (NL0002) : The module "extend" instantiated to "ext" is swept in optimizing("D:\Gowin\MulticycleArchitecture\src\datapath.sv":42)
+[95%] Generate netlist file "D:\Gowin\MulticycleArchitecture\impl\gwsynthesis\MulticycleArchitecture.vg" completed
+[100%] Generate report file "D:\Gowin\MulticycleArchitecture\impl\gwsynthesis\MulticycleArchitecture_syn.rpt.html" completed
+GowinSynthesis finish

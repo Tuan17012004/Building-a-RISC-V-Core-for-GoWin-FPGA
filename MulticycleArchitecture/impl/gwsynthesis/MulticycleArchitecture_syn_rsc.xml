@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_fpga" Register="37" Lut="48" T_Register="204(37)" T_Alu="32(0)" T_Lut="504(48)" T_Bsram="3(0)">
+ <SubModule name="multicycle_cpu" T_Register="167(0)" T_Alu="32(0)" T_Lut="456(0)" T_Bsram="3(0)">
+  <SubModule name="rvcore" T_Register="167(0)" T_Alu="32(0)" T_Lut="445(0)" T_Bsram="2(0)">
+   <SubModule name="c" Lut="24" T_Register="4(0)" T_Lut="53(24)">
+    <SubModule name="fsm" Register="4" Lut="26" T_Register="4(4)" T_Lut="26(26)"/>
+    <SubModule name="ad" Lut="3" T_Lut="3(3)"/>
+   </SubModule>
+   <SubModule name="dp" T_Register="163(0)" T_Alu="32(0)" T_Lut="392(0)" T_Bsram="2(0)">
+    <SubModule name="pcreg" Register="32" T_Register="32(32)"/>
+    <SubModule name="adrmux" Lut="7" T_Lut="7(7)"/>
+    <SubModule name="instrreg" Register="32" T_Register="32(32)"/>
+    <SubModule name="oldpcreg" Register="32" T_Register="32(32)"/>
+    <SubModule name="datareg" Register="32" T_Register="32(32)"/>
+    <SubModule name="rf" Register="2" Lut="6" Bsram="2" T_Register="2(2)" T_Lut="6(6)" T_Bsram="2(2)"/>
+    <SubModule name="breg" Register="1" Lut="33" T_Register="1(1)" T_Lut="33(33)"/>
+    <SubModule name="srcamux" Lut="97" T_Lut="97(97)"/>
+    <SubModule name="srcbmux" Lut="10" T_Lut="10(10)"/>
+    <SubModule name="alu_inst" Alu="32" Lut="161" T_Alu="32(32)" T_Lut="161(161)"/>
+    <SubModule name="aloutreg" Register="32" T_Register="32(32)"/>
+    <SubModule name="resultmux" Lut="78" T_Lut="78(78)"/>
+   </SubModule>
+  </SubModule>
+  <SubModule name="m" Lut="11" Bsram="1" T_Lut="11(11)" T_Bsram="1(1)"/>
+ </SubModule>
+</Module>
